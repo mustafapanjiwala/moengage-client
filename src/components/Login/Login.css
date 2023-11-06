@@ -1,0 +1,61 @@
+/* Login.css */
+
+/* Centered container for login */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styles for the entire Login page container */
+.login-container {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Title styles */
+.login-head {
+  text-align: center;
+  color: #333;
+}
+
+/* Form styles */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input styles */
+.login-input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Button styles */
+.login-button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #3b79db;
+}
+
+/* Label styles*/
+label {
+  font-weight: bold;
+
+  color: #333;
+}
