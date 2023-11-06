@@ -19,9 +19,9 @@ const Signup = () => {
         .post(`${BASE_URL}/signup`, { email, password })
         .then((res) => {
           console.log(res.data);
-          if (res.data == "exist") {
+          if (res.data === "exist") {
             alert("User already exists");
-          } else if (res.data == "notexist") {
+          } else if (res.data === "notexist") {
             history("/home", { state: { id: email } });
             login({ email, password });
           }
